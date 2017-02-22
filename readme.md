@@ -2,25 +2,31 @@
 
 ##Reactive Programming
 
-+----------------------------------------------------+---------------------------------------------------------+
-| **Reactive Programming**                           | **Traditional Programming**                             |
-+----------------------------------------------------+---------------------------------------------------------+
-| The level of abstraction of your code is high,     | Lower level of abstraction, because you also have to    |
-| allowing you to focus on core business rules.      | deal with the technology's intricacies.                 |
-+----------------------------------------------------+---------------------------------------------------------+
-| Usually, lower development times, since you're     | Usually, higher development times, because you also     |
-| only focusing on the problem to solve, which       | have to workaround the limitations of the chosen        |
-| translates into fewer lines of code.               | technology, which in turn translates into more lines of |
-|                                                    | code needed.                                            |
-+----------------------------------------------------+---------------------------------------------------------+
-| Writes code describing the *what to do* instead    | Writes code describing *how to do it* instead of *what  |
-| of the *how to do it*, This simplifies the code    | to do*, This adds extra complexity to the code.         |
-| and makes maintenance much easier.                 |                                                         |
-+----------------------------------------------------+---------------------------------------------------------+
-| Values that depend on others are updated           | Values do not depend on each other dynamically.         |
-| automatically without the need to use any logic.   | In the following line, the value of A is not changed    |
-| In the following line, the value of A gets updated | unless manually updated by the developer.               |
-| whenever B or C changes.                           |                                                         |
-| A: = B + C                                         | A = B + C                                               |
-+----------------------------------------------------+---------------------------------------------------------+
-
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-031e">Reactive Programming</th>
+    <th class="tg-031e">Traditional Programming</th>
+  </tr>
+  <tr>
+    <td class="tg-031e">The level of abstraction of your code is high,<br>allowing you to focus on core business rules.</td>
+    <td class="tg-031e">Lower level of abstraction, because you also have to<br>deal with the technology's intricacies.</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Usually, lower development times, since you're<br>only focusing on the problem to solve, which<br>translates into fewer lines of code.</td>
+    <td class="tg-031e">Usually, higher development times, because you also<br>have to workaround the limitations of the chosen<br>technology, which in turn translates into more lines of<br>code needed.</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Writes code describing the *what to do* instead<br>of the *how to do it*, This simplifies the code <br>and makes maintenance much easier.</td>
+    <td class="tg-031e">Writes code describing *how to do it* instead of *what<br>to do*, This adds extra complexity to the code.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Values that depend on others are updated<br>automatically without the need to use any logic.<br>In the following line, the value of A gets updated<br>whenever B or C changes. <br>A: = B + C</td>
+    <td class="tg-yw4l">Values do not depend on each other dynamically. <br>In the following line, the value of A is not changed <br>unless manually updated by the developer.<br><br>A = B+ C</td>
+  </tr>
+</table>
